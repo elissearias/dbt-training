@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: cust
+    database: raw
+    schema: jaffle_shop
+    tables: 
+      - name: customers
+      - name: orders
